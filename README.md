@@ -1,3 +1,5 @@
+[![Deployment pipeline](https://github.com/ricardolml/github-actions/actions/workflows/pipeline.yml/badge.svg)](https://github.com/ricardolml/github-actions/actions/workflows/pipeline.yml)
+
 # GithubActions
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
