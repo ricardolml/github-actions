@@ -78,8 +78,8 @@ jobs:
           fetch-depth: 0
       - name: Deploy
         if: ${{ github.event_name == 'push' }}
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           GITHUB_TOKEN: ${{ github.token }}
           BRANCH: gh-pages
-          FOLDER: dist
+          FOLDER: dist/github-actions
