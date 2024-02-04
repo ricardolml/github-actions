@@ -80,6 +80,5 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          GITHUB_TOKEN: ${{ github.token }}
-          BRANCH: gh-pages
-          publish_dir: ./dist/github-actions/browser
+          token: ${{ github.token }}
+          folder: ./dist/github-actions/browser
