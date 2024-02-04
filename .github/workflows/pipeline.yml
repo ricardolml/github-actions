@@ -78,8 +78,7 @@ jobs:
           fetch-depth: 0
       - name: Deploy
         if: ${{ github.event_name == 'push' }}
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          GITHUB_TOKEN: ${{ github.token }}
-          BRANCH: gh-pages
-          FOLDER: dist/github-actions
+          github_token: ${{ github.token }}
+          publish_dir: dist/github-actions
