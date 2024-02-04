@@ -82,4 +82,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ github.token }}
           BRANCH: gh-pages
-          FOLDER: dist/github-actions
+          FOLDER: dist
